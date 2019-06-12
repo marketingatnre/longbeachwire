@@ -1,8 +1,8 @@
 ---
 title: Florida Man Rescues Grandma Floating Away on Ice Throne
 excerpt: ''
-date: 2019-06-16 07:00:00 +0000
-author: Mark Jensen
+date: 2019-06-16T07:00:00.000+00:00
+author: authors/mark-jensen.md
 image: ''
 
 ---
