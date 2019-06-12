@@ -6,13 +6,21 @@ fields:
   type: text
   config:
     required: false
-  label: Title
+  label: Name
+  description: The display name of the author
+- name: id
+  type: text
+  config:
+    required: true
+  label: id
+  description: The reference id of the author. This needs to match the name, except
+    all lowercase and replace spaces with hypen
 - name: image
   type: file
   config:
     maxSize: 250
   label: Image
 pages:
-- authors/john-doe.md
-- authors/james-tir.md
 - authors/mark-jensen.md
+- authors/james-tir.md
+- authors/john-doe.md
