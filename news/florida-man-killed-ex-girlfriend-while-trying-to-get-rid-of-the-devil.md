@@ -2,8 +2,9 @@
 title: 'Florida Man Killed Ex-Girlfriend While Trying to ‘Get Rid of the Devil'' '
 excerpt: ''
 date: 2019-06-12T07:00:00.000+00:00
-author: authors/john-doe.md
+author: john-doe
 image: ''
+testid: authors/john-doe.md
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis auctor elit sed vulputate mi sit amet. Massa sapien faucibus et molestie ac feugiat sed. Et sollicitudin ac orci phasellus. Elementum integer enim neque volutpat ac. Volutpat diam ut venenatis tellus in metus vulputate eu. Eget nullam non nisi est sit. Faucibus turpis in eu mi bibendum neque egestas. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Rutrum quisque non tellus orci.

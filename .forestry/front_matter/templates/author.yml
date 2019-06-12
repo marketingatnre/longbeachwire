@@ -12,9 +12,8 @@ fields:
   type: text
   config:
     required: true
-  label: id
-  description: The reference id of the author. This needs to match the name, except
-    all lowercase and replace spaces with hypen
+  label: Author ID
+  description: Same as Name. Must be all lowercase. Substitute spaces with hypens.
 - name: image
   type: file
   config:

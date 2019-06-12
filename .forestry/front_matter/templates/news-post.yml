@@ -15,6 +15,12 @@ fields:
   name: image
   label: image
 - name: author
+  type: text
+  config:
+    required: true
+  label: Author ID
+  description: Must match Author ID in Authors.
+- name: testid
   type: select
   default: []
   config:
@@ -23,9 +29,9 @@ fields:
     source:
       type: pages
       section: authors
-      file: 
+      file: authors/mark-jensen.md
       path: 
-  label: author
+  label: testid
 pages:
 - news/florida-man-driving-unregistered-atv-ran-over-dog.md
 - news/florida-man-caught-on-camera-licking-doorbell.md
