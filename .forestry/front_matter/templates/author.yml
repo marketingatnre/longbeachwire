@@ -10,8 +10,9 @@ fields:
 - name: title
   type: text
   config:
-    required: true
-  label: Title
+    required: false
+  label: Name
+  description: The display name of the author
 - name: image
   type: file
   config:
