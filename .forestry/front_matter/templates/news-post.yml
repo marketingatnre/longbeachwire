@@ -19,9 +19,12 @@ fields:
   default: []
   config:
     required: false
-    options: []
+    options:
+    - mark-jensen
+    - james-tir
+    - john-doe
     source:
-      type: pages
+      type: simple
       section: authors
       file: 
       path: 
