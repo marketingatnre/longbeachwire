@@ -9,11 +9,15 @@ sections:
   label: News
   create: documents
   match: "**/*.md"
+  templates:
+  - news-post
 - type: directory
   path: authors
   label: Authors
   create: documents
   match: "**/*.md"
+  templates:
+  - author
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
