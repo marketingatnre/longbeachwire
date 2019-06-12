@@ -7,6 +7,8 @@ fields:
   config:
     required: true
   label: id
+  description: The reference id of the author. Must be the exact same name as the
+    title, except all lowercase and replace spaces with a hypen.
 - name: title
   type: text
   config:
