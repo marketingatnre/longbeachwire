@@ -1,8 +1,8 @@
 ---
 title: 'Florida Man Killed Ex-Girlfriend While Trying to ‘Get Rid of the Devil'' '
 excerpt: ''
-date: 2019-06-12 07:00:00 +0000
-author: James Tir
+date: 2019-06-12T07:00:00.000+00:00
+author: authors/john-doe.md
 image: ''
 
 ---
