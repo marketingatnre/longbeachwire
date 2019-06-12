@@ -7,7 +7,7 @@ fields:
   config:
     required: true
   label: File Name
-  hidden: true
+  hidden: false
 - name: name
   type: text
   config:
