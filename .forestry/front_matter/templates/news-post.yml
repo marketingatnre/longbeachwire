@@ -12,11 +12,20 @@ fields:
   name: date
   label: date
 - type: text
-  name: author
-  label: author
-- type: text
   name: image
   label: image
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: authors
+      file: 
+      path: 
+  label: author
 pages:
 - news/florida-man-driving-unregistered-atv-ran-over-dog.md
 - news/florida-man-caught-on-camera-licking-doorbell.md
