@@ -21,7 +21,6 @@ fields:
     maxSize: 250
   label: Image
 pages:
-- authors/david-jensen.md
 - authors/mark-jensen.md
 - authors/james-tir.md
 - authors/john-doe.md
