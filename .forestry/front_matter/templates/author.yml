@@ -2,19 +2,19 @@
 label: Author Post
 hide_body: false
 fields:
-- name: id
-  type: text
-  config:
-    required: true
-  label: id
-  description: The reference id of the author. Must be the exact same name as the
-    title, except all lowercase and replace spaces with a hypen.
 - name: title
   type: text
   config:
     required: false
   label: Name
   description: The display name of the author
+- name: id
+  type: text
+  config:
+    required: true
+  label: id
+  description: The reference id of the author. This needs to match the name, except
+    all lowercase and replace spaces with hypen
 - name: image
   type: file
   config:
