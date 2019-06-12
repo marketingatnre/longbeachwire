@@ -1,24 +1,40 @@
 module.exports = {
-  siteName: 'Gridsome starter bootstrap',
-  siteDescription: 'A starter project for Gridsome with Bootstrap and some other useful tools.',
-  siteUrl: 'https://gridsome-starter-bootstrap.loke.dev',
+  siteName: 'The Long Beach Wire',
+  siteDescription: 'Get the latest scoop on everything Long Beach',
+  siteUrl: 'https://lbwire.com',
   plugins: [
-    {
+     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'blog/**/*.md',
-        typeName: 'BlogPost',
+        path: 'news/**/*.md',
+        typeName: 'NewsPost',
         resolveAbsolutePaths: true,
+        refs: {
+          author: 'Author', 
+          tags: { 
+            typeName: 'Tag',
+            route: '/tag/:slug',
+            create: true
+          }
+        },
         remark: {
           externalLinksTarget: '_blank',
           externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-        },
+        }
       },
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'authors/*.md',
+        typeName: 'Author',
+        route: '/author/:id'
+      }
     },
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
-        id: 'UA-72659574-10'
+        id: '000000000000'
       }
     },
     {
