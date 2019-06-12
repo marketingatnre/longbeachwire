@@ -13,4 +13,5 @@ fields:
     maxSize: 250
   label: Image
 pages:
+- authors/james-tir.md
 - authors/mark-jensen.md
