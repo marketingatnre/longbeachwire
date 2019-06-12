@@ -9,6 +9,11 @@ sections:
   label: News
   create: documents
   match: "**/*.md"
+- type: directory
+  path: authors
+  label: Authors
+  create: documents
+  match: "**/*.md"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
