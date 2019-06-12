@@ -17,3 +17,5 @@ fields:
 - type: text
   name: image
   label: image
+pages:
+- news/florida-man-caught-on-camera-licking-doorbell.md
