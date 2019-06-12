@@ -9,11 +9,6 @@ sections:
   label: News
   create: documents
   match: "**/*.md"
-- type: directory
-  path: blog
-  label: Blog
-  create: documents
-  match: "**/*.md"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
