@@ -2,27 +2,18 @@
 label: Author Post
 hide_body: false
 fields:
-- name: id
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - mark-jensen
-    - james-tir
-    - john-doe
-    source:
-      type: simple
-      section: authors
-      file: 
-      path: 
-  label: Author ID
 - name: title
   type: text
   config:
     required: false
   label: Name
   description: The display name of the author
+- name: id
+  type: text
+  config:
+    required: true
+  label: Author ID
+  description: Same as Name. Must be all lowercase. Substitute spaces with hypens.
 - name: image
   type: file
   config:
