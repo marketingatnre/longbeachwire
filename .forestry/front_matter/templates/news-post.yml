@@ -15,20 +15,11 @@ fields:
   name: image
   label: image
 - name: author
-  type: select
-  default: []
+  type: text
   config:
-    required: false
-    options:
-    - mark-jensen
-    - james-tir
-    - john-doe
-    source:
-      type: simple
-      section: authors
-      file: 
-      path: 
-  label: author
+    required: true
+  label: Author ID
+  description: Must match Author ID in Authors.
 pages:
 - news/florida-man-driving-unregistered-atv-ran-over-dog.md
 - news/florida-man-caught-on-camera-licking-doorbell.md
