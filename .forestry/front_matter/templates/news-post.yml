@@ -4,28 +4,28 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: excerpt
-  label: excerpt
+  label: Excerpt
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: text
   name: image
-  label: image
+  label: Image
 - name: author
   type: select
   config:
     required: true
     source:
-      type: custom
+      type: simple
     options:
-        - "mark-jensen"
-        - "james-tir"
-        - "john-doe"
-  label: Author ID
-  description: Must match Author ID in Authors.
+    - mark-jensen
+    - james-tir
+    - john-doe
+  label: Author
+  default: mark-jensen
 pages:
 - news/florida-man-driving-unregistered-atv-ran-over-dog.md
 - news/florida-man-caught-on-camera-licking-doorbell.md
