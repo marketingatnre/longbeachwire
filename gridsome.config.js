@@ -6,7 +6,7 @@ module.exports = {
      {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'news/**/*.md',
+        path: 'news/*.md',
         typeName: 'NewsPost',
         resolveAbsolutePaths: true,
         refs: {
@@ -28,7 +28,7 @@ module.exports = {
       options: {
         path: 'authors/*.md',
         typeName: 'Author',
-        route: '/author/:id'
+        route: '/author/:title'
       }
     },
     {

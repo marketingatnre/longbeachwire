@@ -15,9 +15,15 @@ fields:
   name: image
   label: image
 - name: author
-  type: text
+  type: select
   config:
     required: true
+    source:
+      type: custom
+    options:
+        - "mark-jensen"
+        - "james-tir"
+        - "john-doe"
   label: Author ID
   description: Must match Author ID in Authors.
 pages:
