@@ -1,7 +1,7 @@
 ---
 title: Florida Man Driving Unregistered ATV Ran Over Dog
 excerpt: ''
-date: 2019-06-11 07:00:00 +0000
+date: 2019-06-11T07:00:00.000+00:00
 image: ''
 author: john-doe
 
