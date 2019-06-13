@@ -20,18 +20,6 @@ fields:
     required: true
   label: Author ID
   description: Must match Author ID in Authors.
-- name: testid
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: authors
-      file: authors/mark-jensen.md
-      path: 
-  label: testid
 pages:
 - news/florida-man-driving-unregistered-atv-ran-over-dog.md
 - news/florida-man-caught-on-camera-licking-doorbell.md
