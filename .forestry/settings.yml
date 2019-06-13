@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: document
-  path: settings
-  label: Settings
-  match: "**/*"
 - type: directory
   path: news
   label: News
@@ -22,6 +18,10 @@ sections:
   match: "**/*.md"
   templates:
   - author
+- type: document
+  path: settings
+  label: Settings
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
