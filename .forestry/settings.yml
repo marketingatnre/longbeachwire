@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: document
+  path: settings
+  label: Settings
+  match: "**/*"
 - type: directory
   path: news
   label: News
