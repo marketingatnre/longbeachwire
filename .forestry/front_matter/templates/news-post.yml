@@ -32,11 +32,14 @@ fields:
       file: authors/mark-jensen.md
       path: 
   label: testid
-- name: testid2
-  type: include
-  config: {}
-  template: author
-  label: testid2
+- name: test2
+  type: blocks
+  label: test2
+  template_types:
+  - author
+  config:
+    min: 
+    max: 
 pages:
 - news/florida-man-driving-unregistered-atv-ran-over-dog.md
 - news/florida-man-caught-on-camera-licking-doorbell.md
