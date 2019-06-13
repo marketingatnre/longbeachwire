@@ -2,9 +2,8 @@
 title: 'Florida Man Who Drove Ferrari Into Water Said, ''Jesus Told Him To'' '
 excerpt: ''
 date: 2019-06-13T07:00:00.000+00:00
-author: mark-jensen
 image: ''
-testid: authors/james-tir.md
+author: mark-jensen
 
 ---
 Tempor commodo ullamcorper a lacus vestibulum sed arcu. Nulla aliquet porttitor lacus luctus accumsan tortor posuere. Sed risus pretium quam vulputate dignissim. Suspendisse sed nisi lacus sed viverra. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Diam vulputate ut pharetra sit amet aliquam. Tellus elementum sagittis vitae et leo duis ut diam. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Sit amet nulla facilisi morbi. Eleifend donec pretium vulputate sapien nec sagittis aliquam.
