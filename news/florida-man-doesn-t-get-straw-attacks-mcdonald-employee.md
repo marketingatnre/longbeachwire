@@ -2,7 +2,7 @@
 title: Florida Man Doesn't Get Straw, Attacks McDonald Employee
 excerpt: ''
 date: 2019-06-01T07:00:00.000+00:00
-image: "/uploads/4.jpg"
+image: "/assets/static/uploads/2.jpg"
 author: james-tir
 
 ---
