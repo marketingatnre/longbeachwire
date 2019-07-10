@@ -19,7 +19,7 @@ sections:
   templates:
   - author
 upload_dir: uploads
-public_path: "/uploads"
+public_path: "/assets/static/uploads"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
