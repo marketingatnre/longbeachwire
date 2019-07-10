@@ -8,7 +8,6 @@ module.exports = {
       options: {
         path: 'news/*.md',
         typeName: 'NewsPost',
-        resolveAbsolutePaths: true,
         refs: {
           author: 'Author', 
           tags: { 
