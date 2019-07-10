@@ -2,7 +2,7 @@
 title: Florida Man Intentionally Drove Ferrari 360 Into Ocean At Top Speed
 excerpt: ''
 date: 2019-06-12T07:00:00.000+00:00
-image: ''
+image: "/uploads/2.jpg"
 author: mark-jensen
 
 ---
