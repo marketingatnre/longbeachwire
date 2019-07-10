@@ -2,7 +2,7 @@
 title: 'Florida Man Who Drove Ferrari Into Water Said, ''Jesus Told Him To'' '
 excerpt: ''
 date: 2019-06-13T07:00:00.000+00:00
-image: "/uploads/4.jpg"
+image: "/assets/static/uploads/3.jpg"
 author: mark-jensen
 
 ---
