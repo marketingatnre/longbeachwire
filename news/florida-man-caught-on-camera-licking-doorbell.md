@@ -1,8 +1,8 @@
 ---
 title: Florida Man Caught on Camera Licking Doorbell
 excerpt: ''
-date: 2019-06-01 07:00:00 +0000
-image: ''
+date: 2019-06-01T07:00:00.000+00:00
+image: "/uploads/2.jpg"
 author: mark-jensen
 
 ---
